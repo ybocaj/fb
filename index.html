@@ -27,11 +27,193 @@
         translate: 1500px -800px;
         transition-duration: 5s;
     } */
+    .buf {
+        background-color: #00338D;
+        color: #C60C30;
+    }
+    .buf:hover {
+        background-color: #C60C30;
+        color: #00338D;
+    }
+    .bufr {
+        background-color: #C60C30;
+        color: #00338D;
+    }
+    .bufr:hover {
+        background-color: #00338D;
+        color: #C60C30;
+    }
+    .buftd {
+        background-image: url("/images/logos/logo_buf.png");
+        background-size:  80px 55px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 90px;
+    }
+    .buftd:hover {
+        transform: translate(1500px);
+        animation-timing-function:ease-out;
+        transition-duration: 6s;
+    }
+    .lac {
+        background-color: #0080C6;
+        color: #FFC20E;
+    }
+    .lac:hover {
+        background-color: #FFC20E;
+        color: #0080C6;
+    }
+    .lactd {
+        background-image: url(/images/logos/logo_lac.png);
+        background-size:  100px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 90px;
+    }
+    .pit {
+        background-color: #000;
+        color: #FFB612;
+    }
+    .pit:hover {
+        background-color: #FFB612;
+        color: #000;
+    }
+    .pittd {
+        background-image: url("/images/logos/logo_pit.png");
+        background-size:  70px 70px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 90px;
+    }
+    .pittd:hover {
+        transform: rotate(1800deg);
+        transition-duration: 4s;
+    }
 </style>
+
+
+<main class="container">
+    <table id="standings">
+      <tr>
+        <th id="standings">Pos</th>  
+        <th id="standings">Participant</th>
+        <th id="standings">Pts</th>
+        <th id="standings" alt="Points Possible">PP</th>
+        <th id="standings" class="champ"><center>Champ</center></th>
+        <th id="standings" STYLE="white-space: nowrap">Runner-up</th>
+        <th class="notes">Notes</th>
+      </tr>
+
+
+
+
+
+
+<!--
+
+eliminated team:
+
+    STYLE="text-decoration:line-through red 3px"
+
+<p><i>Hold your mouse over a logo to see a little motion</i></p>
+-->
+
+
+
+
+
+
+<!-- DM -->
+    <tr class="buf">
+        <td id="tdpos"> - </td>
+        <td>DM </td>
+        <td> --- </td>
+        <td> --- </td>
+
+        <td class="buftd"></td>
+        <td>Panthers </td> <!-- STYLE="text-decoration:line-through red 3px" -->
+        <td class="notes">Notes</td>
+    </tr>
+<!-- END DM -->
+
+
+
+
+
+<!-- JC -->
+    <tr class="lac">
+        <td id="tdpos"> - </td>
+        <td>Mr. Tang</td>
+        <td> --- </td>
+        <td> --- </td>
+
+        <td class="lactd"></td>
+        <td>Rams </td>
+        <td class="notes">Notes</td>
+    </tr>
+<!-- END JC -->
+
+
+
+
+
+<!-- JS -->
+    <tr class="pit">
+        <td id="tdpos"> - </td>
+        <td>Smitty</td>
+        <td> --- </td>
+        <td> --- </td>
+
+        <td class="pittd"></td> <!-- class="loss" -->
+        <td>Rams </td>
+        <td class="notes">Notes</td>
+    </tr>
+<!-- END JS -->
+
+
+
+
+
+<!-- ME -->
+    <tr class="buf">
+        <td id="tdpos"> - </td>
+        <td>ME</td>
+        <td> --- </td>
+        <td> --- </td>
+
+        <td class="buftd"></td>
+        <td>Rams </td>
+        <td class="notes">Notes</td>
+    </tr>
+<!-- END ME -->
+
+
+
+
+
+<!-- MM -->
+    <tr class="bufr">
+        <td id="tdpos"> - </td>
+        <td>Manipon</td>
+        <td> --- </td>
+        <td> --- </td>
+
+        <td class="buftd"></td>
+        <td>Bears </td>
+        <td class="notes">Notes</td>
+    </tr>
+<!-- END MM -->
+
+
+
+
 <div style="display: flex; flex-wrap: wrap; gap: 15px;"> 
   
-<a class="classme bal baltd" href="2026_fbEntryForm_mj.jpg">
-    <h1 class="bal baltd">Mike Jacoby</h1>
+<a class="classme" href="2026_fbEntryForm_mj.jpg">
+    <h1>Mike Jacoby</h1>
     <img src="2026_fbEntryForm_mj.jpg" width="350" height="500">
 </a>
 
@@ -56,3 +238,5 @@
 </a>
 
 </div>
+
+
